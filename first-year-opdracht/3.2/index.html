@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <div>
+        <form action="result.html" method="post">
+            <label for="firstname">voornaam</label>
+            <input type="text" name="firstname" id="firstname" required pattern="[A-Za-z]">
+    </div>
+
+
+    <div>
+        <label for="surname">achternaam</label>
+        <input type="text" name="surname" id="surname" required pattern="[A-Za-z]">
+
+
+    </div>
+
+    <div>
+        <label for="password">Wachtwoord</label>
+        <input type="password" name="password" id="password" required>
+    </div>
+
+
+    </div>
+    <div>
+        <label for="gender"></label>
+        <div>
+            <label for="">vrouw</label>
+            <input type="radio" name="gender" id="vrouw" value="female">
+            <label for="">man</label>
+            <input type="radio" name="gender" id="man" value="male">
+        </div>
+    </div>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+    <div>
+        <label for="text">straatnaam en huisnummer</label>
+        <input type="text" name="text" id="text">
+    </div>
+
+    <div>
+        <label for="text">stad</label>
+        <input type="text" name="text" id="text">
+    </div>
+    <div>
+        <label for="text">land</label>
+        <input type="text" name="text" id="text">
+    </div>
+    <div>
+        <label for="text">postcode</label>
+        <input type="text" name="text" id="text">
+
+    </div>
+    <div>
+        <label for="text">bsn</label>
+
+        <input type="text" placeholder="onlynumbers" name="onlynumbers" pattern="\d{1,5}" maxlength="5">
+
+    </div>
+    <div>
+        <label for="countries">kies een land</label>
+        <select name="countries" id="countries">
+            <option value="the netherlands">the netherlands</option>
+            <option value="germany">germany</option>
+            <option value="greece">greece</option>
+            <option value="belgium">belgium</option>
+        </select>
+    </div>
+    <div>
+        <label for="quantity">aantal reisgenoten</label>
+        <input type="number" name="quantity" id="quantity">
+    </div>
+    <form id="flight">
+        <label>
+          Arrival <br/>
+          <input type="date" name="arrival" min="2023-09-17" required/>
+        </label>
+       <div>
+        <label>
+          Departure <br/>
+          <input type="date" name="departure" data-value="7" value="After one week"/>
+        </label>
+    </div>
+      </form>
+
+    <button type="submit">boek nu</button>
+
+    </form>
+
+</body>
+
+</html>
