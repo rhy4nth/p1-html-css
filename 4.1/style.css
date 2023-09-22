@@ -24,3 +24,27 @@ h3 {
 a {
     text-decoration: none;
 }
+
+header{background-image: url(gamecube-games-e1551300181965.webp);
+     background-size: cover;
+     background-repeat: no-repeat;
+background-position:center;
+width:100vw;
+height: 33vh;
+}
+
+.paragraaf{
+    color: aquamarine;
+}
+
+.headerh1{
+    color: aquamarine;
+}
+
+img{
+    width: 50vw;
+}
+
+article {border: 2px solid black;
+border-radius: 10px;
+}
