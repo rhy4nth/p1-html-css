@@ -37,3 +37,17 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+.background{
+  background-image: url('./img/background.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+footer{color: #00a8c7;
+height: fit-content;
+
+}
+title{font-weight: 300;}
